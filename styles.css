@@ -1,0 +1,210 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    padding: 1.5% 10%;
+    align-items:center
+}
+.header__img >img{
+    width:50%;
+}
+.list{
+    display:flex;
+    list-style: none;
+    padding:0;
+}
+.item__menu > a {
+    margin: 0 10px;
+    padding: 10px 0;
+    text-decoration: none;
+    color:#1d1d24
+}
+
+.banner{
+    background-image: url(http://rainbowit.net/html/imroz/assets/images/bg/bg-image-31.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    height: 90vh;
+    display: inline-flex;
+    align-items: center;
+}
+.banner:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    background-color: black;
+    opacity: 0.3;
+}
+.banner__text{
+    margin:0 auto;
+    width: 80%;
+    z-index: 1;
+}
+.banner__title{
+    font-size: 102px;
+    color: #fff;
+    font-style: bold;
+    margin-bottom: 0;
+}
+.banner__content{
+    opacity: 0.7;
+    font-size: 24px;
+    line-height: 40px;
+    color: #fff;
+    opacity: 0.7;
+    width: 52%;
+}
+.banner__button{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+    text-decoration: none;
+}
+
+.boxes{
+    display: flex;
+    padding:120px 0;
+}
+.box__one,.box__two,.box__tree{
+    padding: 40px 30px;
+    background: #f6f6f6;
+    margin: 0 3%;
+    
+}
+svg{
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    height:21%;
+    width: 24%;
+}
+.box__title{
+    margin-bottom: 19px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.box__content{
+    color: #1d1d2473;
+    font-size: 1.5rem;
+}
+.box__one > svg{
+    color: #fd4766;
+}
+.box__two > svg{
+    color: #337dff;
+}
+.box__tree > svg{
+    color: #12d8df;
+}
+.working{
+    display: flex;
+    padding: 5%;
+}
+.working__left >img{
+    border-radius: 5px;
+    box-shadow: 0 25px 65px rgba(0, 0, 0, 0.1);
+}
+.working__right{
+    padding:4%;
+}
+.working__subtitle,.managing__subtitle{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    background: #fd4766;
+    background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #fd4766 79.69%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.working__title{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.box__content{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1d1d24bf;
+}
+.working__link--one,.working__link--two{
+    text-decoration: none;
+    background: none;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    color: #1f1f25;
+}
+.working__link--one::after,.working__link--two::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: #fd4766;
+}
+.fill{
+    font-size: 19px;
+}
+.list__works{
+    padding:0;
+    list-style: none;
+}
+.work{
+    margin: 6% 0;
+}
+.managing__subtitle{
+    display:flex;
+    justify-content: center;
+}
+.managing__title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 20px;
+
+}
+.managing__description{
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1d1d24bf;
+
+}
+.managing__team{
+    display: flex;
+    justify-content: space-around;
+}
+.managing__team >img{
+    box-shadow: 0 25px 65px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
